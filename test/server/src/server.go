@@ -3,10 +3,10 @@ package main
 import (
 	"encoding/gob"
 	"errors"
-	"rpcProject/common/api"
-	server "rpcProject/core"
-	"rpcProject/test/public"
-	test "rpcProject/test/server/src/test"
+	"github.com/GeeVong/rpc/common/api"
+	server "github.com/GeeVong/rpc/core"
+	"github.com/GeeVong/rpc/test/public"
+	test "github.com/GeeVong/rpc/test/server/src/test"
 )
 
 func queryUser(uid int) (public.ResponseQueryUser, error) {

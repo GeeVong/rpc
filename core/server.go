@@ -2,11 +2,11 @@ package core
 
 import (
 	"fmt"
+	"github.com/GeeVong/rpc/common/api"
 	"io"
 	"log"
 	"net"
 	"reflect"
-	"rpcProject/common/api"
 )
 
 /*
@@ -30,7 +30,6 @@ func NewServer(addr string) *Server {
 	return &Server{addr: addr, funcs: make(map[string]reflect.Value)}
 }
 
-//
 func (s *Server) Run() {
 	l, err := net.Listen("tcp", s.addr)
 

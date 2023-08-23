@@ -3,11 +3,11 @@ package main
 import (
 	"encoding/gob"
 	"fmt"
+	"github.com/GeeVong/rpc/common/api"
+	client "github.com/GeeVong/rpc/core"
+	"github.com/GeeVong/rpc/test/public"
 	"log"
 	"net"
-	"rpcProject/common/api"
-	client "rpcProject/core"
-	"rpcProject/test/public"
 )
 
 func main() {
